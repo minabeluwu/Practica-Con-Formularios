@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Formulario</title>
+    </head>
+    <body>
+        <h1>Formulario</h1>
+
+        <h2>Formulario con onchange</h2>
+        <form>
+            <input type="text" onchange="myFunction(this.value)">
+            <button type="button" type="submit">imprimir</button   >
+        </form>
+
+        <script>
+            function myFunction(val) {
+                console.log(val)
+            }
+        </script>
+    </body>
+</html>yftfgfyt
